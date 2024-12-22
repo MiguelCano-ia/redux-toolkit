@@ -6,7 +6,6 @@ export const PokemonApp = () => {
 
   const  { loading, pokemons, page } = useAppSelector( ( state ) => state.pokemons );
 
-
   const dispatch = useAppDispatch();
 
   useEffect(() => {
